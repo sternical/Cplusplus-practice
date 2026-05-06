@@ -1,3 +1,6 @@
+install boost:
+sudo apt update && sudo apt install libboost-all-dev
+
 Compile:
 g++ server.cpp -o server -lboost_system -lpthread
 g++ client.cpp -o client -lboost_system -lpthread
