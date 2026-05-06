@@ -1,3 +1,4 @@
+//g++ server.cpp -o server -lboost_system -lpthread
 // server.cpp
 #include <boost/asio.hpp>
 #include <iostream>

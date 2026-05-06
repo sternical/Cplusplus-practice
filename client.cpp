@@ -1,3 +1,4 @@
+//g++ client.cpp -o client -lboost_system -lpthread
 // client.cpp
 #include <boost/asio.hpp>
 #include <iostream>

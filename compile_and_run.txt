@@ -1,0 +1,8 @@
+Compile:
+g++ server.cpp -o server -lboost_system -lpthread
+g++ client.cpp -o client -lboost_system -lpthread
+
+Run:
+./server
+./client
+./client   # multiple clients
